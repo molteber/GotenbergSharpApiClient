@@ -71,6 +71,8 @@ public static class Constants
 
             internal const string PdfFormat = "pdfFormat";
 
+            internal const string PdfUa = "pdfua";
+
             internal static class FileNames
             {
                 internal const string Index = "index.html";
@@ -99,7 +101,7 @@ public static class Constants
                     public const string Landscape = CrossCutting.Landscape;
 
                     public const string PageRanges = CrossCutting.PageRanges;
-                    
+
                     public const string ExportFormFields = "exportFormFields";
 
                     public const string NativePdfFormat = "nativePdfFormat";
@@ -108,7 +110,7 @@ public static class Constants
 
                     public const string Merge = "merge";
 
-                    public const string PdfUa = "pdfua";
+                    public const string PdfUa = CrossCutting.PdfUa;
                 }
             }
         }
@@ -261,6 +263,8 @@ public static class Constants
 
                     //pdf format
                     public const string PdfFormat = CrossCutting.PdfFormat;
+
+                    public const string PdfUa = CrossCutting.PdfUa;
                 }
             }
         }
